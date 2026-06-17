@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# AWS credentials - NEVER commit
+aws_creds.txt
+*.pem
+*.key
+.aws/
+credentials
+config
+
+# Mac files
+.DS_Store
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data
+*.csv
+*.parquet
+*.json
+
+# Anaconda
+conda-meta/
